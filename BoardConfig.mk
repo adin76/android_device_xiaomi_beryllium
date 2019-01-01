@@ -34,5 +34,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Security Patch
+PLATFORM_SECURITY_PATCH := 2018-11-01
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
